@@ -36,14 +36,8 @@ func addKnownTypes(scheme *runtime.Scheme) error {
 		&AuthenticationList{},
 		&DNS{},
 		&DNSList{},
-		&CloudCredential{},
-		&CloudCredentialList{},
-		&ClusterCSIDriver{},
-		&ClusterCSIDriverList{},
 		&Console{},
 		&ConsoleList{},
-		&CSISnapshotController{},
-		&CSISnapshotControllerList{},
 		&Etcd{},
 		&EtcdList{},
 		&KubeAPIServer{},
@@ -68,8 +62,6 @@ func addKnownTypes(scheme *runtime.Scheme) error {
 		&ServiceCatalogControllerManagerList{},
 		&IngressController{},
 		&IngressControllerList{},
-		&Storage{},
-		&StorageList{},
 	)
 
 	return nil
